@@ -474,6 +474,7 @@ def _install_packages(path, packages):
                 "-t",
                 path,
                 "--ignore-installed",
+                "--no-build-isolation",
             ]
         )
     print(
